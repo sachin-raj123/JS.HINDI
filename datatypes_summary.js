@@ -31,15 +31,28 @@ const heros = ["shaktiman", "naagraj", "doga"];
             console.log("Hello world");
         }
      
-console.log(typeof heros);
+console.log(typeof anotherId);
 
- 
+ // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  
+// stack  (primitive), heap (non-primitive)
 
+let myYoutubename = "sachinrajdotcom"
 
+let anothername = myYoutubename
+anothername = "vipergaming"
 
+console.log(myYoutubename);
+console.log(anothername);
 
-
-
+ let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+ }
+       let userTwo = userOne
+       userTwo.email = "sachin@google.com"
+         console.log(userOne.email );  
+            console.log(userTwo.email);
 
 
 
